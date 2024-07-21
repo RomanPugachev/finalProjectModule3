@@ -2,12 +2,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Welcome Page</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Hello, User!"%>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h3>What service would you like to visit?</h3>
+<br>
+<a href="students">Students Servlet</a>
+<br>
+<br>
+<a href="teachers">Teachers Servlet</a>
+<br>
+<br>
+<a href="groups">Groups Servlet</a>
+<br>
+<br>
+<a href="timetable">Timetable Servlet</a>
 </body>
 </html>
